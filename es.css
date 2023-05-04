@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* Dcomento de estilos para ejercicio guiado 1
+*/
+/* Reseto de todos los elementos de la maqueta de la pagina web*/
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote, section, figcaption {
+    padding: 0; 
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+   }
+   table { border-collapse: collapse; border-spacing: 0; }
+   td, th, caption { font-weight: normal; text-align: left; }
+   img, fieldset { border: 0; }
+   ol { padding-left: 1.4em; list-style: decimal; }
+   ul { padding-left: 1.4em; list-style:square; }
+   q:before, q:after { content:''; }
+
+/* Fin de Resetear*/
+
+body{
+    font-size: 62.5%;
+    }
+h1 {
+    font: normal 2.4em Verdana, arial, helvetica, sans-serif;
+    background: -moz-linear-gradient(top, transparent, rgb(19, 90, 221), rgba(169, 191, 231, 0.452));
+    width: 35%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin: 15px auto;
+    text-align: center;
+    padding: 15px 10px;
+    color: white;
+    box-shadow: blue 5px 5px 5px;
+    text-shadow: white 4px 4px 4px;
+}
+
+h2 {
+    font: bold 1.7em verdana, arial, helvetica;
+    margin: 0%;
+    padding: 5px 0 5px 0;
+    color: black;
+}
+
+section {
+    width: 91%;
+    border-top: 2px dashed #ccc;
+    margin: 15px auto;  
+}
+figure {
+    float: left;
+}
+figure img {
+    padding: 4px;
+    background: grey;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    transition: transform 0.5s ease-in-out 0.3s;
+    -webkit-transition: transform 0.5s ease-in-out 0.3s;
+    -moz-transition: transform 0.5s ease-in-out 0.3s;
+    -ms-transition: transform 0.5s ease-in-out 0.3s;
+    -o-transition: transform 0.5s ease-in-out 0.3s;
+    box-shadow: gainsboro 5px 5px 10px;
+}
+figure img:hover {
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
+figcaption {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    text-align: center;
+    margin-top: 5px;
+}
+
+footer {
+    clear: both;
+    border-top: 3px solid grey;
+    padding-top: 10px;
+ }
+
+footer p {
+    font: 1.6 em Georgia, arial, helvetica;
+    color: gray;
+    margin: 10px 8px;
+    text-align: center;
+
+}
